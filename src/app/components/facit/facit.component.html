@@ -1,0 +1,16 @@
+<div>
+  <button (click)='showTestFacit = !showTestFacit'>{{showTestFacit ? 'Dölj' : 'Visa'}} test-facit</button>
+</div>
+<div *ngIf='showTestFacit'>
+  <code>
+    {{testFacit}}
+  </code>
+</div>
+<div>
+  <button (click)='showFunctionFacit = !showFunctionFacit'>{{showFunctionFacit ? 'Dölj' : 'Visa'}} funktions-facit</button>
+</div>
+<div *ngIf='showFunctionFacit'>
+  <code>
+    {{functionFacit}}
+  </code>
+</div>
