@@ -1,5 +1,5 @@
 # TestExercises (Övningar)
-Detta projekt är en Angular-applikation som är autogenerarad med hjälp av Angular-CLI. Det 
+Detta projekt är en Angular-applikation som är autogenerarad med hjälp av Angular-CLI. Den innehåller övningar som 
 går ut på att skriva enhetstester för en Angular-komponent. För att kunna göra detta behöver följande mjukvara vara installerat på din dator:
 
 * [Node.js & NPM](https://nodejs.org/en/)
