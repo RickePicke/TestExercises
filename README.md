@@ -29,7 +29,7 @@ Lycka till!
 
 # Lösningförslag/facit
 Lösningsförslag/facit finns att tillgå om du starta igång applicationent:
-````
+```
 $ ng serve
 ```
 Navigera till [localhost:4200](localhost:4200) i din webbläsare för att nå sidan.
