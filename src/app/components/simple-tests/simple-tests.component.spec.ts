@@ -21,7 +21,7 @@ describe('SimpleTestsComponent', () => {
   // Allt ovan följer med när en komponent skapas med angualr-cli. Komandot för det är: ng g component "namn"
   // Exakt vad som händer här går att läsa på https://angular.io/guide/testing#test-a-component
 
-  // skriv test för den här funktionen
+  // Skriv test för funktionen generateComment här
   describe('generateComment', () => {
     it('shold have tests', () => {
       expect(true).toBeFalsy();      
@@ -29,7 +29,7 @@ describe('SimpleTestsComponent', () => {
 
   });
 
-  // skriv test för den här funktionen
+  // Skriv test för funktionen calculate här
   describe('calculate', () => {
     it('shold have tests', () => {
       expect(true).toBeFalsy();
@@ -37,7 +37,7 @@ describe('SimpleTestsComponent', () => {
 
   });
   
-  // skriv test för den här funktionen
+  // Skriv test för funktionen toggleScore här
   describe('toggleScore', () => {
     it('shold have tests', () => {
       expect(true).toBeFalsy();

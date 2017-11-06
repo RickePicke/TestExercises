@@ -19,7 +19,8 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../node_modules/prismjs/themes/prism.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
@@ -58,6 +59,10 @@
     "class": {
       "spec": false
     },
-    "component": {}
+    "component": {
+    }
+  },
+  "warnings": {
+    "typescriptMismatch": false
   }
 }
