@@ -50,10 +50,7 @@ export class SimpleTestsComponent implements OnInit {
 
   // Skriv funktionen så att testerna som finns på den inte fallerar.
   getResult ():string {
-    if(this.score > 0) {
-      return `Your score is ${this.score}, ${this.generateComment()}`;
-    }
-    return 'You don\'t want to know!';
+    return '';
   }
 
 }
