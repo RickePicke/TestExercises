@@ -1,15 +1,21 @@
 import { Component, OnInit } from '@angular/core';
+import { Http } from '@angular/http'
+
 @Component({
   selector: 'app-simple-tests',
   templateUrl: './simple-tests.component.html',
   styleUrls: ['./simple-tests.component.css']
 })
+
 export class SimpleTestsComponent implements OnInit {
   private readonly calculationMethods = ['+', '-', '*', '/'];
+  private categories:any;
   public score: number = 0; // Detta attribut är skapat för testerna
 
-  constructor() { 
-
+  constructor(private http: Http) { 
+    http.get('assets/exercises.json').map(res => res.json()).subscribe((data)=>{
+      this.categories = data;
+    });
   }
 
   ngOnInit() {

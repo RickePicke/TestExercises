@@ -1,0 +1,33 @@
+
+[
+    {
+        "header": "Skriv tester för följande funktioner",
+        "exercises": [
+            {
+                "name": "generateComment",
+                "solutionProposalPath": "/assets/generateComment.md",
+                "showSolutionProposal": false
+            },
+            {
+                "name": "calculate",
+                "solutionProposalPath": "/assets/calculate.md",
+                "showSolutionProposal": false
+            },
+            {
+                "name": "toggleScore",
+                "solutionProposalPath": "/assets/toggleScore.md",
+                "showSolutionProposal": false
+            }
+        ]
+    },
+    {
+        "header": "Rätta till följande funktioner så att de matchar dess tester", 
+        "exercises": [
+            {
+                "name": "getResult",
+                "solutionProposalPath": "/assets/getResult.md",
+                "showSolutionProposal": false
+            }
+        ]
+    }
+]

@@ -1,33 +1,19 @@
-<h1>
-  Övningar - Enhetstester
-</h1>
-<h3>Skriv tester för följande funktioner</h3>
-<ul>
-  <li>
-    generateComment()
-    <button class="" mat-raised-button color="primary" (click)='showGenerateComment = !showGenerateComment'>{{showGenerateComment ? 'Dölj' : 'Visa'}} facit</button>
-  </li>
-  <div *ngIf='showGenerateComment' Markdown path="/assets/generateComment.md"></div>
-
-  <li>
-    calculate()
-    <button mat-raised-button color="primary" (click)='showCalculate = !showCalculate'>{{showCalculate ? 'Dölj' : 'Visa'}} facit</button>      
-  </li>
-  <div *ngIf='showCalculate' Markdown path="/assets/calculate.md"></div>
-
-  <li>
-    toggleScore()
-    <button mat-raised-button color="primary" (click)='showToggleScore = !showToggleScore'>{{showToggleScore ? 'Dölj' : 'Visa'}} facit</button>          
-  </li>
-  <div *ngIf='showToggleScore' Markdown path="/assets/toggleScore.md"></div>
-  
-</ul>
-<h3>Rätta till följande funktioner så att de matchar dess tester</h3>
-<ul>
-  <li>
-    getResult()
-    <button mat-raised-button color="accent" (click)='showGetResult = !showGetResult'>{{showGetResult ? 'Dölj' : 'Visa'}} facit</button>    
-  </li>
-</ul>
-<div *ngIf='showGetResult' Markdown path="/assets/getResult.md"></div>    
-  
+<div class="main-container">
+  <h1>Övningar - Enhetstester</h1>
+  <div *ngFor="let category of categories">
+    <h3 class="category-header">&#8903; {{category.header}}</h3>
+    <ng-container *ngFor="let exercise of category.exercises; let even = even">
+      <div class="row exercise-row">
+        <div class="col-8">
+          <span class="exercise-name">{{exercise.name}}()</span>
+        </div>
+        <div class="col-4 button-container">
+          <button mat-raised-button color="primary" (click)='exercise.showSolutionProposal = !exercise.showSolutionProposal'>
+            {{exercise.showSolutionProposal ? 'Dölj' : 'Visa'}} förslag
+          </button>    
+        </div>
+      </div>
+      <div class="solution-container" *ngIf='exercise.showSolutionProposal' Markdown path="{{exercise.solutionProposalPath}}"></div>            
+    </ng-container>
+  </div>
+</div>

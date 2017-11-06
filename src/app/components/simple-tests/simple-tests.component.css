@@ -1,11 +1,61 @@
-li button {
-    float: right;
+
+.main-container {
+    padding: 0 3%;
 }
 
-li {
-    padding: 15px 0;
+.solution-container {
+    padding: 0 15px;
 }
 
-ul{
-    padding: 0 45px;
+.category-header {
+    margin: 20px 0 5px 0;
+    padding: 8px;
+}
+
+.exercise-list{
+    border: 1px solid rgb(218, 214, 214);    
+}
+
+.button-container {
+    text-align: right;
+}
+
+.exercise-name {
+    position: relative;
+    font-size: 20px;
+}
+
+.exercise-row {
+    background-color: rgb(240, 240, 240);
+    margin: 10px 0;
+}
+
+.row {
+    padding: 10px 0;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+}
+
+[class*="col-"] {
+    padding: 0 10px;
+}
+
+.col-1 {width: calc((100% / 12)*1)}
+.col-2 {width: calc((100% / 12)*2)}
+.col-3 {width: calc((100% / 12)*3)}
+.col-4 {width: calc((100% / 12)*4)}
+.col-5 {width: calc((100% / 12)*5)}
+.col-6 {width: calc((100% / 12)*6)}
+.col-7 {width: calc((100% / 12)*7)}
+.col-8 {width: calc((100% / 12)*8)}
+.col-9 {width: calc((100% / 12)*9)}
+.col-10 {width: calc((100% / 12)*10)}
+.col-11 {width: calc((100% / 12)*11)}
+.col-12 {width: calc((100% / 12)*12)}
+
+[class*="language-"] {
+    margin: 0 !important;
 }

@@ -25,9 +25,11 @@ $ npm test
 
 Nu är testerna igång , stäng inte ner terminalen eller webbläsarefönstret som dök upp. Varje gång du gör en ändring i komponenter eller testerna kommer testerna köras om på nytt. Skriv testerna med hjälp av videon som finns inbäddad ovan. Följ instruktionerna som finns kommenterade i källkoden.
 
-Facit/lösningsförslag finns i textfilerna under:
-```
-src/assets
-```
-
 Lycka till!
+
+# Lösningförslag/facit
+Lösningsförslag/facit finns att tillgå om du starta igång applicationent:
+````
+$ ng serve
+```
+Navigera till [localhost:4200](localhost:4200) i din webbläsare för att nå sidan.
