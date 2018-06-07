@@ -1,21 +1,23 @@
 # TestExercises (Övningar)
-Detta projekt är en Angular-applikation som är autogenerarad med hjälp av Angular-CLI. Den innehåller övningar som 
-går ut på att skriva enhetstester för en Angular-komponent. För att kunna göra detta behöver följande mjukvara vara installerat på din maskin:
+TestExercises är en Angular-applikation som är autogenerarad med hjälp av Angular-CLI. Repot innehåller övningar som syftar till att ge kunskap för hur enhetstester kan skrivas. För att kunna göra dessa övningar behöver följande mjukvara vara installerat på din maskin:
 
 * [Node.js & NPM](https://nodejs.org/en/)
 * [Angular-CLI](https://cli.angular.io/)
 * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-När du har installerat det som står i listan, öppna då ett terminalfönster och gör följande:
+När du har installerat det som står i listan, öppna ett terminalfönster och gör följande:
 
-* Navigera in i projektet och kör: npm install
+* Navigera in i projektet och kör: 
+``` 
+$ npm install
+``` 
 
-Som sagt, projektet är en Angular- applikation som är autogenerarad med hjälp av Angular-CLI. Under
+Som sagt är övningarna gjorde i en Angular-applikation som är autogenerarad med hjälp av Angular-CLI. Under
 ```
 src/app/components/simple-test
 ```
 
-finns en finns en fil som heter simple-test.component.ts, detta är komponenten som testerna skall skrivas för. Testerna skrivs i simple-test.component.spec.ts.
+finns en finns en fil som heter simple-test.component.ts - detta är komponenten som testerna skall skrivas för. Testerna skrivs i simple-test.component.spec.ts.
 
 Kör igång testerna med något av följande kommandon:
 ``` 
