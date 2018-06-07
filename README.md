@@ -30,7 +30,7 @@ Nu är testerna igång , stäng inte ner terminalen eller webbläsarefönstret s
 Lycka till!
 
 # Lösningförslag/facit
-Lösningsförslag/facit finns att tillgå om du starta igång applicationent:
+Lösningsförslag/facit finns att tillgå om du starta igång applikationen:
 ```
 $ ng serve
 ```
